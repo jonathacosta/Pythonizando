@@ -31,7 +31,7 @@ knn = KNeighborsClassifier(n_neighbors=2)   # Classificador
 knn.fit(X_train,y_train)
 
 # =============================================================================
-# #  3.0 Ajuste comm Grid search
+# #  3.0 Ajuste com Grid search
 # =============================================================================
 n=20
 parametros = {
